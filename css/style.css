@@ -149,8 +149,12 @@ body {
     padding: 0px;
     width: 463px;
     border-bottom: 7px solid #999;
-    position: relative;
+    position: absolute; /* Change position to absolute */
+    top: 50%; /* Align the top edge of the element at the vertical center of the containing element */
+    left: 50%; /* Align the left edge of the element at the horizontal center of the containing element */
+    transform: translate(-50%, -50%); /* Center the element perfectly by moving it -50% of its own width and height */
 }
+
 
 #keyPad_Help {
     /* position: absolute!important;
