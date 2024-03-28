@@ -1,84 +1,17 @@
-* {
-    box-sizing: border-box;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-}
 
-body {
+
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
     font-family: Arial;
 }
 
-.calc_close {
-    background: url('../images/Sprite.png') no-repeat -204px -13px;
-    width: 16px;
-    height: 16px;
-    color: #fff;
-    cursor: pointer;
-    font-size: 12px;
-    font-weight: 900;
-    line-height: 25px;
-    position: absolute;
-    right: 12px;
-    text-align: center;
-    top: 12px;
-    border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-}
-
-#keyPad_Help {
-    color: #fff;
-    background: url('../images/Sprite.png') no-repeat -22px -8px;
-    width: 54px;
-    height: 25px;
-    padding: 1px;
-    cursor: pointer;
-    font-size: 12px;
-    font-weight: bold;
-    line-height: 20px;
-    position: absolute;
-    right: 79px;
-    text-align: center;
-    top: 7px;
-    /*	border:1px solid;
-	border-radius:5px;
-	-webkit-border-radius:5px;
-	-moz-border-radius:5px;
-	-ms-border-radius:5px;
-	box-shadow:0 2px 2px #000000;
-	-webkit-box-shadow:0 2px 2px #000000;
-	-moz-box-shadow:0 2px 2px #000000;
-	-ms-box-shadow:0 2px 2px #000000;*/
-
-}
-
-#keyPad_Help:hover {
-    background: url('../images/Sprite.png') no-repeat -82px -8px;
-    width: 54px;
-    height: 25px;
-}
-
-#keyPad_Helpback {
-    color: #fff;
-    background: url('../images/Sprite.png')no-repeat -22px -43px;
-    width: 54px;
-    height: 25px;
-    padding: 1px;
-    cursor: pointer;
-    font-size: 12px;
-    font-weight: bold;
-    line-height: 20px;
-    position: absolute;
-    right: 79px;
-    text-align: center;
-    top: 7px;
-}
-
-#keyPad_Helpback:hover {
-    background: url('../images/Sprite.png') no-repeat -82px -43px;
-    width: 54px;
-    height: 25px;
+.inline {
+    display: inline-block;
+    overflow: hidden;
+    white-space: nowrap;"
 }
 
 .calc_min {
@@ -147,7 +80,8 @@ body {
     -webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1) inset;
     box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1) inset;
     padding: 0px;
-    width: auto;
+    height: 100%;
+     width: 100%; /*463px */
     border-bottom: 7px solid #999;
     position: absolute; /* Change position to absolute */
     top: 50%; /* Align the top edge of the element at the vertical center of the containing element */
