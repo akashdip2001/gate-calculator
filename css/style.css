@@ -128,14 +128,24 @@ body, html {
     float: left;
     font-size: 12px;
     font-weight: bold;
-    height: 55px; /*25*/
+    height: 25px;
     line-height: 20px;
     margin-right: 5px;
     text-align: center;
     text-decoration: none;
     vertical-align: middle;
-    width: 41px; /*35*/
+    width: 35px;
 }
+
+@media screen and (max-width: 767px) and (orientation: landscape) {
+    /* Adjust height and width for landscape mobile mode */
+    #keyPad a {
+        height: 35px;
+        width: 45px;
+    }
+}
+
+
 
 #keyPad a.min {
     font-size: 10.5px;
