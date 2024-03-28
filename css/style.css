@@ -1,3 +1,5 @@
+
+
 body, html {
     margin: 0;
     padding: 0;
@@ -142,7 +144,7 @@ body, html {
         width: 55px;
     }
 
-    #keyPad #keyPad_btnBack {
+    #keyPad_btnBack {
         width: 119px !important;
     }
     #keyPad_btn0 {
@@ -213,7 +215,7 @@ body, html {
     text-align: right;
     text-indent: 10px;
     vertical-align: middle;
-    width: 434px;
+    width: 98%; /*434px*/
     float: left;
     margin-bottom: 7px;
     padding-right: 5px;
