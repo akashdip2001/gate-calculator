@@ -128,13 +128,13 @@ body, html {
     float: left;
     font-size: 12px;
     font-weight: bold;
-    height: 25px;
+    height: 55px; /*25*/
     line-height: 20px;
     margin-right: 5px;
     text-align: center;
     text-decoration: none;
     vertical-align: middle;
-    width: 35px;
+    width: 41px; /*35*/
 }
 
 #keyPad a.min {
