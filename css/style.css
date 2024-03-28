@@ -256,8 +256,8 @@ body, html {
     line-height: 47px;
     right: 10px;
     *right: -6px;
-    width: 55px; /*35*/
-    height: 53px;
+    width: 100px; /*35*/
+    height: 60px; /*53px*/
     position: absolute;
     /* LINE-HEIGHT: 65PX; */
     FONT-SIZE: 20px;
