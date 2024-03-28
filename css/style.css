@@ -127,7 +127,10 @@ body, html {
     font-size: 12px;
     font-weight: bold;
     height: 25px;
-    line-height: 20px;
+    /* line-height: 20px; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
     margin-right: 5px;
     text-align: center;
     text-decoration: none;
