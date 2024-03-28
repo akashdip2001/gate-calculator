@@ -1,5 +1,3 @@
-
-
 body, html {
     margin: 0;
     padding: 0;
@@ -142,6 +140,13 @@ body, html {
     #keyPad a {
         height: 35px;
         width: 55px;
+    }
+
+    #keyPad #keyPad_btnBack {
+        width: 119px !important;
+    }
+    #keyPad_btn0 {
+        width: 119px !important;
     }
 }
 
