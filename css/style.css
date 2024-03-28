@@ -142,12 +142,12 @@ body, html {
         width: 55px;
     }
 
-    /* #keyPad_btnBack {
+    #keyPad_btnBack {
         width: 119px !important;
     }
     #keyPad_btn0 {
         width: 119px !important;
-    } */
+    }
 }
 
 
@@ -234,7 +234,7 @@ body, html {
 }
 
 #keyPad_btn0 {
-    width: 119px !important;
+    width: 76px !important;
 }
 
 /* ARROWS */
@@ -251,7 +251,7 @@ body, html {
     color: #fff;
     font-size: 20px;
     line-height: 47px;
-    right: 10px;
+    /* right: 10px; */
     *right: -6px;
     width: 35px;
     height: 53px;
@@ -281,7 +281,7 @@ body, html {
     background: none repeat scroll 0 0 #e74c3c;
     color: #fff;
     border-color: #c0392b;
-    width: 119px !important; /*76px*/
+    width: 76px !important; /*25*/
 }
 
 /* SPECIAL FORMATTING FOR SUPER-SCRIPT KEYS */
