@@ -236,7 +236,7 @@ body, html {
 }
 
 #keyPad_btn0 {
-    width: 76px !important;
+    width: 119px !important;
 }
 
 /* ARROWS */
@@ -283,7 +283,7 @@ body, html {
     background: none repeat scroll 0 0 #e74c3c;
     color: #fff;
     border-color: #c0392b;
-    width: 76px !important;
+    width: 119px !important; /*76px*/
 }
 
 /* SPECIAL FORMATTING FOR SUPER-SCRIPT KEYS */
